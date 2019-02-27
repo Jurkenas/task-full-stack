@@ -1,0 +1,25 @@
+@import "./font.scss";
+
+.bg-image {
+  background-image: url("../scss/images/bg-picture.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.home-page {
+  height: 100vh;
+  font-family: $main-font;
+  font-weight: $main-font-weight;
+  font-size: 10vmin;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.home-page ul {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}

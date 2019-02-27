@@ -1,0 +1,97 @@
+@import "./colors.scss";
+@import "./font.scss";
+
+.table {
+  font-family: $main-font;
+  font-weight: $main-font-weight;
+  color: white;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 5%;
+  width: 80%;
+}
+
+td,
+th {
+  height: 6vh;
+  vertical-align: middle;
+  text-align: center;
+  border: 3px solid black;
+}
+
+th {
+  background-color: $tr-header;
+  color: white;
+}
+
+tr:nth-child(even) {
+  background-color: $tr-even;
+  color: $tr-header;
+  transition: background-color 0.2s ease;
+}
+
+tr:nth-child(odd) {
+  background-color: $tr-odd;
+  color: $tr-header;
+  transition: background-color 0.2s ease;
+}
+
+tr:hover {
+  background-color: $orange;
+}
+
+.randomButton {
+  font-family: $main-font;
+  font-weight: $main-font-weight;
+  width: 20%;
+  border-radius: 10vh;
+  margin-top: 3%;
+  margin-bottom: 3%;
+  transition: background-color 0.7s ease;
+}
+
+.randomButton:hover {
+  background-color: $orange;
+}
+
+.newButton {
+  font-family: $main-font;
+  font-weight: $main-font-weight;
+  width: 20%;
+  border-radius: 10vh;
+  margin-top: 3%;
+  margin-left: 30%;
+  margin-bottom: auto;
+  transition: background-color 0.7s ease;
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+}
+
+.newButton:hover {
+  background-color: $orange;
+}
+.deleteButton {
+  font-family: $main-font;
+  font-weight: $main-font-weight;
+  background-color: black;
+  border-radius: 5vh;
+  color: white;
+  padding: 6%;
+  font-size: 2vh;
+  cursor: pointer;
+}
+
+.viewButton {
+  font-family: $main-font;
+  font-weight: $main-font-weight;
+  background-color: black;
+  border-radius: 5vh;
+  color: white;
+  padding: 10%;
+  font-size: 2vh;
+  cursor: pointer;
+  text-decoration: none;
+}

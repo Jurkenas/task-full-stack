@@ -1,0 +1,36 @@
+@import "./colors.scss";
+@import "./font.scss";
+
+body {
+  text-align: center;
+}
+
+h1 {
+  font-size: 5vh;
+  font-family: $main-font;
+  font-weight: $main-font-weight;
+  font-style: italic;
+  margin-bottom: 10%;
+}
+
+.registration {
+  font-family: $main-font;
+  font-weight: $main-font-weight;
+  display: inline-block;
+  margin: 10%;
+  background-color: $violet;
+  padding: 3%;
+  border-radius: 10%;
+}
+
+.button {
+  margin-top: 5%;
+  font-family: $main-font;
+  font-weight: $main-font-weight;
+  background-color: black;
+  border-radius: 2vh;
+  color: white;
+  padding: 3%;
+  font-size: 2vh;
+  cursor: pointer;
+}

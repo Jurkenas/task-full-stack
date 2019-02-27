@@ -1,0 +1,50 @@
+@import "./colors.scss";
+@import "./font.scss";
+
+$minH: 10vh;
+$fontL: calc(10px + 2vmin);
+$fontH: calc(10px + 3vmin);
+
+.navbar {
+  background-color: $violet;
+  min-height: $minH;
+  display: flex;
+  align-items: center;
+  flex-direction: inline;
+  font-family: $main-font;
+  font-weight: $main-font-weight;
+}
+
+.navbar a {
+  font-size: $fontL;
+  color: $veryLightViolet;
+  transition: font-size 0.7s ease, color 0.3s linear;
+  text-decoration: none;
+  padding-left: 1.5%;
+  padding-right: 1.5%;
+}
+
+.navbar a:hover {
+  font-size: $fontH;
+  color: $orange;
+}
+.navbar-right {
+  margin-left: auto;
+  margin-right: 2%;
+}
+
+.loginButton {
+  background-color: $violet;
+  font-family: $main-font;
+  font-weight: $main-font-weight;
+  border: none;
+  overflow: hidden;
+  font-size: $fontL;
+  color: $veryLightViolet;
+  transition: font-size 0.7s ease;
+}
+
+.loginButton:hover {
+  font-size: $fontH;
+  color: $orange;
+}

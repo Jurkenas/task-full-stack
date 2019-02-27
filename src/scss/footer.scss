@@ -1,0 +1,40 @@
+@import "./colors.scss";
+@import "./font.scss";
+
+.footer {
+  background-color: $footer-bg;
+  min-height: 20vh;
+  font-family: $main-font;
+  font-weight: $main-font-weight;
+}
+
+.footer-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 25%;
+}
+
+.list h2 {
+  margin-top: 5%;
+  margin-left: 25%;
+  font-style: italic;
+  color: $footer-header;
+}
+
+.list li {
+  color: $footer-body;
+  padding: 2%;
+}
+
+.cvLogo {
+  padding: 2%;
+  margin-left: 5%;
+  width: 5%;
+}
+
+.linkedIn {
+  margin-left: 10%;
+  padding: 2%;
+  width: 15%;
+}
