@@ -5,7 +5,6 @@
 ## Used software:
 * React.js
 * Symfony 4.2.10
-* MySQL
 * SQlite
 * Composer
 
@@ -16,7 +15,7 @@ Running front end:
 * yarn start
 
 Running back end:
-* php -S localhost -t public
+* php -S localhost:8000 -t public
 
 Back end server is located on http://localhost:8000 address. Front end on http://localhost:3000 address.
 
